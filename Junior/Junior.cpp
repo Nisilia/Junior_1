@@ -55,7 +55,7 @@ int main()
     {
         for (int i = 0; i<8; i++)
         { 
-            std::cout << "You should enter the ASCII number of symbol in cash to get right information\n" //Чтобы программа работала корректно, необходимо ввести номера ASCII-символов. 
+            std::cout << "You should enter the ASCII number of symbol in cash to get right information\n"; //Чтобы программа работала корректно, необходимо ввести номера ASCII-символов. 
             std::cout << "Enter " << i+1 << " number\n";                                                  // Например, у восьми единиц будет следующая комбинация: 138 254 248 109 227 176 239 241 222 215 89 26 165 255 39 105
             std::cin >> a;
             A1[i] = a;
